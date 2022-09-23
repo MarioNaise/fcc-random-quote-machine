@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Quote Machine</title>
-</head>
-<body>
-    
-</body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="script.js"></script>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Random Quote Machine</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body class="flex">
+        <div id="quote-box" class="flex">
+            <p id="text"></p>
+            <p id="author"></p>
+            <button id="new-quote">new quote</button>
+            <button>
+                <a href="#" target="_blank" id="tweet-quote">tweet quote</a>
+            </button>
+        </div>
+        <p id="source">
+            Quotes from
+            <a target="_blank" href="https://zenquotes.io/"
+                >https://zenquotes.io/</a
+            >
+        </p>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
