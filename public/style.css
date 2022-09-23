@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+}
+
 body {
     background-color: rgb(55, 65, 81);
     width: 100vw;
@@ -22,10 +26,12 @@ body {
 #text {
     background-color: ghostwhite;
     text-align: center;
+    font-size: 20px;
 }
 
 button {
     align-self: bottom;
+    margin: 10px;
 }
 
 a{
