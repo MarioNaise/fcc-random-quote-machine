@@ -13,7 +13,7 @@ async function updateQuote(url) {
     text.html(data.content);
     author.html("- "+data.author);
     query = encodeURI(data.content) + encodeURI(data.author);
-  tweetQuote[0].href = link + query;
+    tweetQuote[0].href = link + query;
 }
 
 updateQuote(quoteUrl);

@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(55, 65, 81);
+    background-color: rgb(41, 62, 97);
     width: 100vw;
     height: 100vh;
 }
@@ -16,11 +16,12 @@ body {
 }
 
 #quote-box {
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 70vh;
     min-width: 300px;
     min-height: 200px;
     background-color: ghostwhite;
+    border-radius: 10px;
 }
 
 #text {
@@ -29,9 +30,19 @@ body {
     font-size: 20px;
 }
 
+#author{
+  margin: 20px;
+}
+
+p{
+  padding: 10px 20px;
+}
+
 button {
     align-self: bottom;
     margin: 10px;
+    padding: 5px;
+    width: 10rem;
 }
 
 a{
