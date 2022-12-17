@@ -16,10 +16,8 @@ body {
 }
 
 #quote-box {
-    width: 60vw;
-    height: 70vh;
-    min-width: 300px;
-    min-height: 200px;
+    min-width: 60vw;
+    height: auto;
     background-color: ghostwhite;
     border-radius: 10px;
 }
@@ -40,7 +38,7 @@ p{
 
 button {
     align-self: bottom;
-    margin: 10px;
+    margin: 10px 0px;
     padding: 5px;
     width: 10rem;
 }
